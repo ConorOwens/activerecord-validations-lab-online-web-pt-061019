@@ -8,6 +8,8 @@ class Post < ActiveRecord::Base
   
   def clickbait
     if title.exclude? ("Won't Believe") && title.exclude? ("Secret") && title.exclude? ("Top") && title.exclude? ("Guess")
-      errors.add(:clickbait)
+      errors.add(:clickbait, "Clickbait that shiz")
+    end
+  end
   
 end
