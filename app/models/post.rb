@@ -7,6 +7,6 @@ class Post < ActiveRecord::Base
   validate :clickbait
   
   def clickbait
-    unless 
+    unless title.c
   
 end
