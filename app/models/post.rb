@@ -7,6 +7,6 @@ class Post < ActiveRecord::Base
   validate :clickbait
   
   def clickbait
-    if title.exclude? ()
+    if title.exclude? ("Won't Believe") &&
   
 end
