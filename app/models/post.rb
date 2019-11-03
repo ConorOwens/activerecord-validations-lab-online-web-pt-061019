@@ -7,6 +7,6 @@ class Post < ActiveRecord::Base
   validate :clickbait
   
   def clickbait
-    if title.exclude? ("Won't Believe") && title.exclude? ("Secret") && title.exclude? ("Won't Believe") && title.exclude? ("Won't Believe") && title.exclude? ("Won't Believe") &&
+    if title.exclude? ("Won't Believe") && title.exclude? ("Secret") && title.exclude? ("Top [") && title.exclude? ("Guess")
   
 end
